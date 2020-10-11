@@ -1,0 +1,195 @@
+@import "../style.css"; 
+
+body {
+    overflow: hidden;
+    color: var(--primary-color-light);
+}
+
+.left-container {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    background-color: var(--primary-color-theme);
+}
+
+.right-container {
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+
+.logo-container{
+    width: 90%;
+    margin-top: 35%;
+    margin-left: 5%;
+}
+
+.gotoregister-button-container{
+    margin-top: 3%;
+    margin-left: 29%;
+}
+
+.register-button {
+    padding: 2% 18% 2% 18%;
+    background-color: var(--primary-color-theme);
+    border: 1px solid var(--primary-color-light);
+    border-radius: 40px;
+    color: var(--primary-color-light);
+    font-size: 1.2vw;
+    font-weight: var(--font-quicksand-light);
+}
+
+.register-button:hover {
+    background-color: var(--secondary-color-theme);
+}
+
+.login-input {
+    margin-top: 5%;
+    margin-left: 16%;
+    width: 60%;
+    height: 4.5vw;
+    background-color: var(--secondary-color-dark);
+    border: none;
+    border-radius: 5px 5px 0 0;
+    padding-left: 12%;
+    padding-top: 1%;
+    color: var(--primary-color-light);
+    font-size: 1.6vw;
+}
+
+.login-input::placeholder {
+    font-size: 1.6vw;
+    color: var(--secondary-color-light);
+}
+
+.checkbox-container-1 {
+    font-size: 1.2vw;
+    font-weight: var(--font-quicksand-light);
+    display: inline-block;
+    position: relative;
+    padding-left: 5%;
+    margin-left: 16.5%;
+    margin-top: 3%;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.5vw;
+    width: 1.5vw;
+    background-color: var(--primary-color-dark);
+    border: 1px solid var(--primary-color-light);
+    border-radius: 2px;
+}
+
+.checkbox-container-1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkbox-container-1:hover input ~ .checkmark {
+    background-color: var(--secondary-color-dark);
+}
+
+.checkbox-container-1 input:checked ~ .checkmark {
+    background-color: var(--secondary-color-dark);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container-1 input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container-1 .checkmark:after {
+    left: 4px;
+    top: -1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.login-button {
+    padding: 2% 18% 2% 18%;
+    background-color: var(--primary-color-theme);
+    border-radius: 40px;
+    color: var(--primary-color-light);
+    font-size: 1.9vw;
+    font-weight: var(--font-quicksand-light);
+    margin-top: 10%;
+    margin-left: 16%;
+    width: 70%;
+    height: 5vw;
+    border: none;
+}
+
+.login-button:hover {
+    background-color: var(--secondary-color-theme);
+}
+
+#remindme-checkbox {
+    margin-left: 17%;
+    margin-top: 2%;
+    background: var(--primary-color-dark);
+}
+
+#login-form {
+    margin-left: 2%;
+}
+
+
+#message-container-1 {
+    color: var(--primary-color-light);
+    font-weight: var(--font-quicksand-light);
+    font-size: 1.5vw;
+    margin-top: 25%;
+    margin-left: 29%;
+}
+
+#message-container-2 {
+    font-size: 4vw;
+    font-weight: var(--font-quicksand-medium);
+    margin-left: 11%;
+    margin-bottom: 5%;
+}
+
+#message-container-forgot {
+    display: inline-block;
+    font-size: 1.2vw;
+    margin-left: 22%;
+}
+
+#logo-slogan-1 {
+    width: 100%;
+}
+
+#icon-email-1 {
+    position: relative;
+    bottom: 19.6vw;
+    right: 40vw;
+    width: 2.6vw;
+}
+
+#icon-key-1 {
+    position: relative;
+    bottom: 39.6vw;
+    left: 56vw;
+    width: 2.6vw;
+}

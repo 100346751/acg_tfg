@@ -1,0 +1,51 @@
+:root {
+    /* Colors */
+    --primary-color-theme: #29676D; 
+    --secondary-color-theme: #3F888F;
+
+    --primary-color-dark:#252526;
+    --secondary-color-dark: #454546;
+
+    --primary-color-light: white;
+    --secondary-color-light:#C4C4C4;
+    
+    /* Fonts weight */
+    --font-quicksand-light: 300;
+    --font-quicksand-regular: 400;
+    --font-quicksand-medium: 500;
+    --font-quicksand-semibold: 600;
+    --font-quicksand-bold: 700;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-color: var(--primary-color-dark);
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* unvisited link */
+a:link {
+    color: var(--primary-color-light);
+}
+  
+/* visited link */
+a:visited {
+    color: var(--secondary-color-theme);;
+}
+
+/* mouse over link */
+a:hover {
+    color: var(--primary-color-theme);
+}
+
+/* selected link */
+a:active {
+    color: var(--secondary-color-theme);;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>WriteWay - Login</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <!-- Style links -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../styles/login.css">
+  </head>
+  <body>
+    <div class="left-container">
+      <div class="logo-container">
+        <img id="logo-slogan-1" src="../assets/img/logo/logo-slogan-white.png">
+      </div>
+      <div id="message-container-1">¿No tienes cuenta todavía?</div>
+      <div class="gotoregister-button-container">
+        <button id="gotoregister-button" class="register-button">Registrarse</button>
+      </div>
+    </div>
+    <div class="right-container">
+      <div id="message-container-2">¡Bienvenid@ de nuevo!</div>
+      <form id="login-form">
+        <input class="login-input" type="text" id="login-email" name="email" placeholder="Correo electrónico"><br>
+        <input class="login-input" type="password" id="login-password" name="password" placeholder="Contraseña"><br>    
+        <label id="remember-boxcheck" class="checkbox-container-1" for="remindme-checkbox">Recuérdame
+          <input type="checkbox" id="remindme-checkbox" name="remindme">
+          <span class="checkmark"></span>
+        </label>
+        <div id="message-container-forgot">
+          <a id="message-container-3" href="*">He olvidado mi contraseña</a>
+        </div>
+        <button id="login-button" class="login-button">Iniciar sesión</button>
+      </form>
+    </div>
+    <img id="icon-email-1" src="../assets/img/icons/mail.svg">  
+    <img id="icon-key-1" src="../assets/img/icons/key.svg">  
+    </body>
+</html>

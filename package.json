@@ -1,0 +1,24 @@
+{
+  "name": "acg_tfg",
+  "version": "1.0.0",
+  "description": "TFG-Creative Writing Support System",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^10.1.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/100346751/acg_tfg.git"
+  },
+  "author": "Angela Cervantes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/100346751/acg_tfg/issues"
+  },
+  "homepage": "https://github.com/100346751/acg_tfg#readme"
+}
